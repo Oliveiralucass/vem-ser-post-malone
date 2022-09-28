@@ -11,10 +11,18 @@ li{
 a{
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
 }
 
-.grid{
+main{
+  margin: 2.5rem;
+}
+
+.title{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.flex{
     display: flex;
     gap: 1.5rem;
 }
@@ -24,9 +32,26 @@ a{
     margin-bottom: 2rem;
     display: flex;
     width: 100%;
-    background-color: #f9f9f9;  
+    background-image: linear-gradient( to right, #018925 , #018247, #0a4ead, #013185 );
     justify-content: space-between;
-    margin: 1.5rem;
+    padding: 0.5rem 2.5rem ;
+    
+    align-items: center;
+    justify-items: center;
     
   }
+
+  img{
+    width: 50rem;
+    margin-top: 2rem;
+  }
+
+  #logo{
+    width: 8rem;
+    height: 3rem;
+    position: relative;
+    top: -8px;
+    
+  }
+
 
